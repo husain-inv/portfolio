@@ -883,8 +883,42 @@ services section
 portfolio section
 ---------------- */
 .portfolio-section {
-  padding: 80px 0 0;
+  padding: 80px 0 80px;
   min-height: 100vh;
+}
+
+.portfolio-section .section-tittle {
+  margin-bottom: 40px;
+}
+
+.portfolio-section span {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-black-900);
+  text-align: center;
+}
+
+.portfolio-section span p {
+  margin: 0 15px;
+}
+
+.portfolio-section span a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.portfolio-section span a::after {
+  border-radius: 50%;
+}
+
+.portfolio-section span i {
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-black-700);
 }
 /* ----------------
 testimonial section
