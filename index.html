@@ -485,7 +485,7 @@
     </section>
     <!-- services end -->
 
-    <!-- portfolia start -->
+    <!-- portfolia section start -->
     <section class="portfolio-section section" id="portfolio">
         <div class="container">
             <div class="row">
@@ -493,18 +493,113 @@
                     <h2 data-heading="portfolio">Latest Works</h2>
                 </div>
             </div>
+            <!-- portfolio filter start -->
             <div class="row">
-                <h2>In Progress</h2>
+                <div class="portfolio-filter">
+                    <span class="filter-item outer-shadow active" data-target="all">all</span>
+                    <span class="filter-item" data-target="photoshop">photoshop</span>
+                    <span class="filter-item" data-target="web-design">web design</span>
+                    <span class="filter-item" data-target="2d-design">2D design</span>
+                    <span class="filter-item" data-target="3d-design">3D design</span>
+                </div>
             </div>
-            <span>
-                <p>projek pertama - responsive site</p>
-                <a href="https://husain-inv.github.io/site/" target="_blank" class="outer-shadow hover-shadow">
-                    <i class="fad fa-portal-enter"></i>
-                </a>
-            </span>
+            <!-- portfolio filter end -->
+            <!-- portfolio items start -->
+            <div class="row portfolio-items">
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="web-design">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/thumb/project-1.png" alt="portfolio"
+                                data-screenshots="img/portfolio/large/project-1/1.png, img/portfolio/large/project-1/2.png, img/portfolio/large/project-1/3.png">
+                            <!-- view project btn -->
+                            <span class="view-project">view project</span>
+                        </div>
+                        <p class="portfolio-item-tittle">Responsive Design</p>
+                        <!-- portfolio item detail start -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>project brief: </h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum dicta dolor
+                                        doloremque cupiditate? Saepe inventore hic facilis iste nemo numquam porro iusto
+                                        est labore corporis maxime ullam, dignissimos aliquid doloremque reiciendis
+                                        vitae harum libero unde eius possimus dolorem laborum incidunt.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>project info</h3>
+                                    <ul>
+                                        <li>date - <span>2021</span></li>
+                                        <li>client - <span>xxx</span></li>
+                                        <li>Tools - <span>Html, Css, Javascript</span></li>
+                                        <li>Web - <span><a
+                                                    href="https://husain-inv.github.io/site/">www.domain.com</a></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item detail end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+            </div>
+            <!-- portfolio items end -->
         </div>
     </section>
-    <!-- portfolia end -->
+    <!-- portfolio section end -->
+
+    <!-- portfolio poup start -->
+    <div class="pp portfolio-popup">
+        <div class="pp-details">
+            <div class="pp-details-inner">
+                <div class="pp-tittle">
+                    <h2>Personal Portfolio</h2>
+                    <p>Category - <span class="pp-project-category">Web Design</span></p>
+                </div>
+                <div class="pp-project-details">
+                    <div class="row">
+                        <div class="description">
+                            <h3>project brief: </h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum dicta dolor
+                                doloremque cupiditate? Saepe inventore hic facilis iste nemo numquam porro iusto
+                                est labore corporis maxime ullam, dignissimos aliquid doloremque reiciendis
+                                vitae harum libero unde eius possimus dolorem laborum incidunt.</p>
+                        </div>
+                        <div class="info">
+                            <h3>project info</h3>
+                            <ul>
+                                <li>date - <span>2021</span></li>
+                                <li>client - <span>xxx</span></li>
+                                <li>Tools - <span>Html, Css, Javascript</span></li>
+                                <li>Web - <span><a href="https://husain-inv.github.io/site/">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="pp-main">
+            <div class="pp-main-inner">
+                <div class="pp-project-details-btn outer-shadow hover-shadow">Project Details<i class="fad fa-plus"></i>
+                </div>
+                <div class="pp-close outer-shadow hover-shadow">&times;</div>
+                <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+                <div class="pp-counter">1 of 3</div>
+            </div>
+            <div class="pp-loader">
+                <div></div>
+            </div>
+            <!-- pp navigation -->
+            <div class="pp-next"><i class="fad fa-play"></i></div>
+            <div class="pp-prev"><i class="fad fa-play"></i></div>
+        </div>
+    </div>
+    <!-- portfolio poup end -->
 
     <!-- testimonial start -->
     <section class="testimonial-section section" id="testimonial">
