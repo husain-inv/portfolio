@@ -1081,6 +1081,7 @@ portfolio popup
 
 .portfolio-popup .pp-tittle p span {
   font-weight: 400;
+  text-transform: capitalize;
 }
 
 .portfolio-popup .pp-project-details h3 {
@@ -1116,6 +1117,10 @@ portfolio popup
   font-weight: 600;
   color: var(--text-black-600);
   font-size: 16px;
+}
+
+.portfolio-popup .info ul li a {
+  color: var(--skin-color);
 }
 
 .portfolio-popup .info ul li span {

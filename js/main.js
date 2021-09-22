@@ -218,11 +218,15 @@ function bodyScrollingToggle() {
       slideIndex = 0;
       popupToggle();
       popupSlideshow();
+      popupDetails();
     }
   });
 
   closeBtn.addEventListener("click", () => {
     popupToggle();
+    if (projectDetailsContainer.classList.contains("active")) {
+      popupDetailsToggle();
+    }
   });
 
   function popupToggle() {
@@ -253,6 +257,26 @@ function bodyScrollingToggle() {
     }
     popupSlideshow();
   });
+
+  function popupDetails() {
+    if (!portfolioItems[itemIndex].querySelector(".portfolio-item-details")) {
+      projectDetailsBtn.style.display = "none";
+      return;
+    }
+    projectDetailsBtn.style.display = "block";
+    const details = (portfolioItems[itemIndex].querySelector(
+      ".portfolio-item-details"
+    ).innerHTML = details);
+    popup.querySelector(".pp-project-details").innerHTML = details;
+    const title = portfolioItems[itemIndex].querySelector(
+      ".portfolio-item-tittle"
+    ).innerHTML;
+    popup.querySelector("pp-tittle h2").innerHTML = title;
+    const category = portfolioItems[itemIndex].getAttribute("data-category");
+    popup.querySelector(".pp-project-category").innerHTML = category
+      .split("-")
+      .join(" ");
+  }
 
   projectDetailsBtn.addEventListener("click", () => {
     popupDetailsToggle();
