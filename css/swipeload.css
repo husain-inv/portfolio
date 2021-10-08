@@ -1,0 +1,102 @@
+@keyframes swipeLoad-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-1 {
+  animation: swipeLoad-1 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+@keyframes swipeLoad-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-2 {
+  animation: swipeLoad-2 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 0.2s; */
+}
+
+@keyframes swipeLoad-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-3 {
+  animation: swipeLoad-3 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 0.4s; */
+}
+
+@keyframes swipeLoad-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-4 {
+  animation: swipeLoad-4 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 0.8s; */
+}
+
+@keyframes swipeLoad-5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-5 {
+  animation: swipeLoad-5 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 1s; */
+}
+
+@keyframes swipeLoad-6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-6 {
+  animation: swipeLoad-6 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 1.2s; */
+}
+
+@keyframes swipeLoad-7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-7 {
+  animation: swipeLoad-7 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 1.4s; */
+}
+
+@keyframes swipeLoad-8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.about-section .skills .skill-item .progress-bar.skill-8 {
+  animation: swipeLoad-8 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  /* animation-delay: 1.6s; */
+}
