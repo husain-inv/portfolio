@@ -94,6 +94,12 @@
     left: -30px;
     right: auto;
   }
+
+  .about-section .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 574px) {
@@ -103,5 +109,11 @@
 
   .home-section .home-text h2 {
     font-size: 40px;
+  }
+
+  .about-section .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
